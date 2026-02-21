@@ -96,20 +96,7 @@ Update `src/main/resources/application.properties` with your database credential
 ```properties
 # Server
 server.port=8080
-
-# Database (MySQL example)
-spring.datasource.url=jdbc:mysql://localhost:3306/job_portal_db
-spring.datasource.username=your_username
-spring.datasource.password=your_password
-spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
-
-# JPA
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
 ```
-
-> **Note:** Create the `job_portal_db` database in your MySQL instance before running the app.
 
 ### Running the Application
 
